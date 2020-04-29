@@ -12,7 +12,7 @@ config_entries {
     listeners = [
       {
         port = 9999
-        protocol = "http"
+        protocol = "tcp"
         services = [
           {
             name = "s1"
