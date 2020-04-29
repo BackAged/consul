@@ -9,7 +9,6 @@ replace github.com/hashicorp/consul/sdk => ./sdk
 replace launchpad.net/gocheck => github.com/go-check/check v0.0.0-20140225173054-eb6ee6f84d0a
 
 require (
-	github.com/Azure/go-autorest v10.15.3+incompatible // indirect
 	github.com/Microsoft/go-winio v0.4.3 // indirect
 	github.com/NYTimes/gziphandler v1.0.1
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
@@ -36,7 +35,7 @@ require (
 	github.com/hashicorp/go-checkpoint v0.0.0-20171009173528-1545e56e46de
 	github.com/hashicorp/go-cleanhttp v0.5.1
 	github.com/hashicorp/go-connlimit v0.2.0
-	github.com/hashicorp/go-discover v0.0.0-20191202160150-7ec2cfbda7a2
+	github.com/hashicorp/go-discover v0.0.0-20200429141032-a2222321f33c
 	github.com/hashicorp/go-hclog v0.12.0
 	github.com/hashicorp/go-memdb v1.0.3
 	github.com/hashicorp/go-msgpack v0.5.5
@@ -77,7 +76,7 @@ require (
 	github.com/sirupsen/logrus v1.4.2 // indirect
 	github.com/stretchr/testify v1.4.0
 	go.opencensus.io v0.22.0 // indirect
-	golang.org/x/crypto v0.0.0-20191106202628-ed6320f186d4
+	golang.org/x/crypto v0.0.0-20191206172530-e9b2fee46413
 	golang.org/x/net v0.0.0-20190923162816-aa69164e4478
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58
 	golang.org/x/sys v0.0.0-20200124204421-9fbb57f87de9
